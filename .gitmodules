@@ -1,3 +1,0 @@
-[submodule "week_2_orchestration/mage"]
-	path = week_2_orchestration/mage
-	url = git@github.com:mage-ai/mage-zoomcamp.git
