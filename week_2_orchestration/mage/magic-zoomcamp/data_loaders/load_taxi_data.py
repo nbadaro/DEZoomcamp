@@ -3,7 +3,6 @@ if 'data_loader' not in globals():
 if 'test' not in globals():
     from mage_ai.data_preparation.decorators import test
 
-import requests
 import pandas as pd
 
 
@@ -36,7 +35,6 @@ def load_data(*args, **kwargs):
         'congestion_surcharge': float
     }
 
-    quarterly_data_df = pd.DataFrame(columns=taxi_dtypes.keys())
     monthly_data = []
     parse_dates = ['lpep_pickup_datetime', 'lpep_dropoff_datetime']
     
