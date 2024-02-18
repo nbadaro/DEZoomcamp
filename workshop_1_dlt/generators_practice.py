@@ -1,6 +1,7 @@
 """
 pip install dlt[duckdb]
 https://colab.research.google.com/drive/1Te-AT0lfh0GpChg1Rbd0ByEKOHYtWXfm#scrollTo=pY4cFAWOSwN1&forceEdit=true&sandboxMode=true
+https://dlthub.com/docs/intro
 """
 import dlt
 import duckdb
@@ -90,7 +91,7 @@ def question_3():
 def question_4():
     """
     Q: Calculate the sum of all ages of people.
-    A: 353
+    A: 266
     """
     def people_1():
         for i in range(1, 6):
